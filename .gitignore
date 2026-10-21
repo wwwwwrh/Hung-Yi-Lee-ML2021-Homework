@@ -1,0 +1,58 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Local Python / Conda environments
+.venv/
+venv/
+env/
+.conda/
+conda-meta/
+
+# IDE and OS local files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credentials and private config
+.env
+.env.*
+!.env.example
+*.log
+
+# Downloaded datasets and generated predictions
+/HW01-Regression/covid.train.csv
+/HW01-Regression/covid.test.csv
+/HW01-Regression/pred_*.csv
+/HW02-Classification/timit_11/
+/HW02-Classification/data.zip
+/HW02-Classification/prediction_*.csv
+
+# Additional data directories / raw arrays
+**/data/
+**/datasets/
+*.npy
+*.npz
+
+# Trained models / checkpoints (including future homework)
+**/models/
+**/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Temporary files
+*.tmp
+*.swp
+*~
