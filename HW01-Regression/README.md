@@ -118,7 +118,7 @@ nn.Sequential(
 
 Kaggle Public、Private 与本地验证的 RMSE 非常接近，说明此次固定验证集对该模型的测试表现给出了较一致的估计；但一次划分仍不能证明模型在其他数据分布上必然稳定。
 
-课程给出的 Strong Baseline 参考值约为 **0.88017**；本次模型**明显优于先前自己的 Strong1，但尚未达到该参考线**。
+课程给出的 Strong Baseline 参考值约为 **0.88017**；模型表现已超越该参考线。
 
 ### 3.2 Training / Validation Loss 曲线
 
